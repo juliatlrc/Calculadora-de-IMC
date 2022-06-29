@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula Alura Lógica de Programação </title>
+</head>
+<body>
+    <script>
+function brokeLine () {
+    document.write("<br><br>")
+
+}
+function show (text) {
+    document.write(text)
+    brokeLine()
+}
+
+function calculeImc (weight, height) {
+    return weight / (height*height);
+}
+var name = prompt("Informe seu nome");
+var weight= prompt(name  + ",informe seu peso");
+var height=prompt (name + ",informe sua altura"); 
+var imc = calculeImc(weight,height);
+alert (name + ",seu imc é:" + imc);
+</script>
+
+</body>
+</html>
